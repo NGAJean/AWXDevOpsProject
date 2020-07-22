@@ -1,4 +1,4 @@
-- name: Playbook for managed servers
+- hosts: Rasp
   roles:
           - role: geerlingguy.ntp
             become: yes
