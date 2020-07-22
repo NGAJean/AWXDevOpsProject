@@ -1,0 +1,4 @@
+- name: Playbook for managed servers
+  roles:
+          - role: geerlingguy.ntp
+            become: yes
