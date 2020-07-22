@@ -1,4 +1,3 @@
-- hosts: Rasp
-  roles:
+- roles:
           - role: geerlingguy.ntp
             become: yes
